@@ -596,7 +596,7 @@ function rawurldecode ($str) {}
  * @return string a URL-encoded string.
  * @since 5.0
  */
-function http_build_query ($query_data, $numeric_prefix = null, $arg_separator = null, $enc_type = PHP_QUERY_RFC1738){}
+function http_build_query ($query_data, string $numeric_prefix = null, string $arg_separator = null, int $enc_type = PHP_QUERY_RFC1738){}
 
 /**
  * Returns the target of a symbolic link
